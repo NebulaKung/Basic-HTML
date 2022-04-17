@@ -1,0 +1,23 @@
+em{
+    color: red;
+}
+table,
+td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.product {
+    background-color: gold;
+    width: 300px;
+}
+
+#text {
+    color: blue;
+    font-weight: bold;
+}
+
+a[target="_blank"]{
+    color: gold;
+}
