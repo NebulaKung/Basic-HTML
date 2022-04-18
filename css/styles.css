@@ -21,3 +21,15 @@ td {
 a[target="_blank"]{
     color: gold;
 }
+
+h1{
+    color: dodgerblue;
+}
+
+.highlight{
+    color: deeppink;
+}
+
+#color {
+    color: green;
+}
