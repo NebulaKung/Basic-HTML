@@ -14,6 +14,7 @@ td {
 .product {
     background-color: gold;
     width: 300px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
 }
 
 #text {
