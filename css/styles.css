@@ -1,3 +1,6 @@
+body{
+    background: radial-gradient(lightblue,rgb(255, 117, 90))
+}
 em{
     color: red;
 }
