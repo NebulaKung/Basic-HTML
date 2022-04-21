@@ -1,19 +1,20 @@
-* {
+/* * {
     box-sizing: border-box; 
-}
+} */
 
 p {
     padding: 10px 20px;
     border: 5px solid gold;
 }
 
-.box::before{
+/* /.box::before{
     content: "Hello";
-}
+} */
 .box {
-    width: 100px;
-    height: 100px;
-    background-color: gold;
-    
+    width: 150px;
+    height: 150px;
+    border: 5px solid gold;
+    display: inline-block;
+    overflow: auto;
 }
 
