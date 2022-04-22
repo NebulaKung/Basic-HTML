@@ -1,3 +1,7 @@
+body {
+    margin: 10px;
+    height: 200vh;
+}
 /* * {
     box-sizing: border-box; 
 } */
@@ -17,4 +21,26 @@ p {
     display: inline-block;
     overflow: auto;
 }
+.boxes {
+    border: 3px solid lightgray;
+}
+.boxx {
+    width: 5rem;
+    height: 5rem;
+}
+.box-one{
+    background: gold;
+}
+.box-two {
+    background: tomato;
+    position: fixed;
+    top: 0;
+    right: 0rem;
+    left: 0rem;
+    width: auto;
+    z-index: 99;  /*คล้าย layer ในโปรแกรมวาดรูป*/
 
+}
+.box-three {
+    background: dodgerblue;
+}
