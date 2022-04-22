@@ -2,11 +2,11 @@ body {
     margin: 10px;
     height: 200vh;
 }
-/* * {
+* {
     box-sizing: border-box; 
-} */
+} 
 
-p {
+/*p {
     padding: 10px 20px;
     border: 5px solid gold;
 }
@@ -33,7 +33,7 @@ p {
 }
 .box-two {
     background: tomato;
-    position: fixed;
+    //position: fixed;
     top: 0;
     right: 0rem;
     left: 0rem;
@@ -41,6 +41,29 @@ p {
     z-index: 99;  /*คล้าย layer ในโปรแกรมวาดรูป*/
 
 }
+
 .box-three {
     background: dodgerblue;
+}
+
+
+.tweet {
+    border: 3px solid lightgray;
+    overflow: auto;
+}   
+
+.clearfix ::after{
+    content: '';
+    display: block;
+    clear:both ;
+}
+.avatar{
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+}
+.clear {
+    clear: left;
 }
