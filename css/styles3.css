@@ -37,6 +37,14 @@ button {
     border-radius: 5px;
     outline: 0;
 }
+.form-number {
+    width: 50%;
+    padding: 2rem;
+}
 .form-group {
     margin-bottom: 1rem;
+}
+
+textarea {
+    resize: none;
 }
